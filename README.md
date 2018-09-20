@@ -7,6 +7,7 @@
 - Install laravel and composer
 - Install redis server on your machine
 - Install php client for redis with composer command - "composer require predis/predis"
+- In .env file, change SESSION_DRIVER value to "redis"
 - Run migration command - "php artisan migrate"
 - Run make authentication command - "php artisan make:auth"
 - Start artisan server - "php artisan serve"
